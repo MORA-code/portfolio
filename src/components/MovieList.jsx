@@ -12,9 +12,9 @@ const MovieList = () => {
   }
 
   return (
-    <>
+    <div style={{textAlign: "center", marginTop: "10px", marginBottom: "10px"}}>
       {content}
-    </>
+    </div>
   );
 };
 

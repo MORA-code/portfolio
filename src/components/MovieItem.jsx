@@ -1,6 +1,6 @@
 const MovieItem = ({ movie }) => {
   return (
-    <div>{movie.title}</div>
+    <div class="item" style={{marginTop: "10px"}}>{movie.title}</div>
   );
 };
 
